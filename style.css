@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courier+Prime&display=swap');
+
+@media (min-width: 768px) {
+    h1{
+        font-size: 4.3vw; /* viewport */
+    }
+    .map{
+        top: -50px;
+        right: 30px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    h1{
+        font-size: 4.3vh; /* viewport */
+    }
+    .map{
+        position: unset !important;
+        margin-top: 20px;
+        width: 100%;
+    }
+}
+
+nav {
+    font-family: 'Bebas Neue', cursive;
+}
+
+body {
+    background-color: #080324;
+}
+
+.bg-red {
+    background-color: #f9003d;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    color: white;
+    font-size: 80px;
+}
+
+.nav-link {
+    margin-right: 55px;
+    margin-left: 55px;
+}
+
+.nav-link.contact {
+    background-color: #a058ff;
+    border: 1px solid #080324;
+    min-width: 18%;
+}
+
+.banner-home {
+    background-image: url(imagem-fundo-banner.jpg);
+    height: 768px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-home .row {
+    height: 760px;
+}
+
+hr {
+    border: 1px solid #FFAF00;
+    opacity: 1;
+    width: auto;
+}
+
+h2 {
+     font-family:  'Courier Prime', monospace;
+     color: #df093d;
+     font-size: 40px;
+}
+
+h3 {
+    font-family:  'Bebas Neue', cursive;
+    color: #df093d;
+    font-size: 40px;
+}
+
+h6 {
+    font-family: 'Courier Prime', monospace;
+    color: #FFFFFF;
+    font-size: 28px;
+}
+
+h5 {
+    font-family: 'Bebas Neue', cursive;;
+    color: #f4b027;
+    font-size: 42px;
+}
+
+p {
+    font-family: 'inter', sans-serif;
+    color: #FFFFFF;
+    text-align: justify;
+}
+
+.secao-projeto p {
+    font-size: 1.25em;
+}
+
+.secao-locais {
+    margin-top: 30px;
+    background-image: url(imagem-fundo-info.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    text-transform: uppercase;
+}
+
+.secao-locais .row {
+    min-height: 230px;
+}
+
+
+.box-locais {
+    width: 250px;
+    font-weight: 600;
+
+}
+
+.box-locais .box  {
+    border: 2px solid #a259f7;
+    color: #a259f7;
+    text-align: center;
+    font-weight: bold;
+    height: 90px;
+    line-height: 90px;
+}
+
+.secao-endereco {
+    background-image: url(imagem-fundo-ranking.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+}
+
+.mx-auto{
+    font-family: 'Courier Prime', monospace;
+    color: #FFFFFF;
+}
+
+.box-endereco .h5 {
+    color: #f4b027;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.20em;
+    font-weight: 600;
+}
+
+.box-endereco .cax{
+    border: 2px solid #a259f7;
+    color: #a259f7;
+    font-weight: bold;
+    /*height: 90px;
+    line-height: 90px;*/
+    padding-right: 40%;
+    font-family: 'Courier Prime', monospace;
+}
+
+.text-center {
+    background-color: #df093d;
+}
